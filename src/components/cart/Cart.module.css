@@ -1,0 +1,35 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 20px 30px;
+  background-color: var(--color-text-bold);
+}
+
+.container span {
+  font-size: 18px;
+  color: var(--color-danger);
+  font-weight: var(--font-bold);
+}
+
+.container span:last-of-type {
+  margin-right: 20px;
+}
+
+@media (max-width: 685px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container span {
+    margin: 5px 0;
+  }
+
+  .container span:last-of-type {
+    margin-right: 0;
+  }
+}

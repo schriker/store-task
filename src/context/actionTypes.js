@@ -1,0 +1,7 @@
+export const SEARCH = 'SEARCH'
+export const FETCHING_START = 'FETCHING_START'
+export const FETCHING_SUCCESS = 'FETCHING_SUCCESS'
+export const FETCHING_FAIL = 'FETCHING_FAIL'
+
+export const CART_ADD = 'CART_ADD'
+export const CART_UPDATE = 'CART_UPDATE'

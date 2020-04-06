@@ -1,0 +1,11 @@
+.amount {
+  margin: 0 20px;
+  width: 60px;
+}
+
+@media (max-width: 685px) {
+  .amount {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
